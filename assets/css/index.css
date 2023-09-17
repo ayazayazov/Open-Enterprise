@@ -1,0 +1,44 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 107px;
+    padding: 32px;
+    border-bottom: 1px solid var(--borderGray);
+}
+
+.logo{
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--fontOpenSans);
+    color: var(--mainBlack);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-bar ul li a{
+    color: var(--mainBlack);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.36px;
+}
+
+.nav-bar ul li:last-child a {
+    color: var(--mainGreen);
+    font-weight: 800;
+}
+
+.ham-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}

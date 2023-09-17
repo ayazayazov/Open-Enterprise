@@ -1,0 +1,16 @@
+@media screen and (max-width: 900px) {
+    .ham-btn{
+        display: block;
+    }
+
+    .nav-bar{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .nav-bar ul{
+        gap: 10px;
+    }
+}
