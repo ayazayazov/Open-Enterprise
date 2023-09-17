@@ -6,11 +6,48 @@
     .nav-bar{
         display: none;
     }
+
+    .info{
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .info-content{
+        text-align: center;
+        align-items: center;
+    }
+
+    .info-text h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .info-img-mobile{
+        display: block;
+    }
+
+    .info-img{
+        display: none;
+    }
+
+    .info{
+        padding: 0 18px;
+    }
 }
 
 
 @media screen and (max-width: 1200px) {
     .nav-bar ul{
         gap: 10px;
+    }
+
+    .info-text h2{
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .info-text p{
+        font-size: 20px;
+        line-height: 32px;
     }
 }
