@@ -1,0 +1,12 @@
+:root{
+    /* FONTS */
+    --fontRoboto: "Roboto", sans-serif;
+    --fontOpenSans: "Open Sans", sans-serif;
+
+    /* COLORS */
+    --mainBlack: #303031;
+    --BackgroundWhite: #F9F9F9;
+    --mainGrey: #66645E;
+    --borderGray: #E7E7E7;
+    --mainGreen: #71A894;
+}
