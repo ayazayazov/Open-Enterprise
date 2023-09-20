@@ -49,6 +49,12 @@
     .card-title{
         margin-bottom: 10px;
     }
+
+    /* Kickstart an organization with your co-founders */
+
+    .kickstart{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -107,5 +113,11 @@
 
     .reimagining-cards{
         flex-direction: column;
+    }
+
+    /* Kickstart an organization with your co-founders */
+
+    .kickstart{
+        display: none;
     }
 }
