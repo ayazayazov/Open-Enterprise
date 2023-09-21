@@ -12,6 +12,9 @@
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.logo h1{
     font-family: var(--fontOpenSans);
     color: var(--mainBlack);
     font-size: 32px;
@@ -288,4 +291,138 @@
     flex-direction: column;
     justify-content: center;
     gap: 4px;
+}
+
+/* Onboard users, investors and advisors as you grow */
+
+.onboard{
+    display: flex;
+    padding: 0 54px 0 80px;
+    margin-bottom: 160px;
+    gap: 178px;
+}
+
+.jassir-card{
+    display: flex;
+    flex-direction: column;
+    padding: 32px 40px;
+    border-radius: 16px;
+    border: 4px solid var(--mainBlack);
+    background: var(--mainWhite);
+    width: 484px;
+}
+
+.jassir-info{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.jassir-info img{
+    border: solid none;
+    border-radius: 36px;
+}
+
+.jassir-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.jassir-name p:first-child{
+    color: var(--mainBlack);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+.jassir-name p:last-child{
+    color: #66645E;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.32px;
+}
+
+.jassir-card-par{
+    color: var(--mainBlack);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.32px;
+    margin-bottom: 48px;
+}
+
+.jassir-stat{
+    margin-bottom: 32px;
+}
+
+.jassir-stat ul{
+    display: flex;
+    gap: 100px;
+}
+
+.jassir-stat ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.jassir-stat ul li span{
+    color: #66645E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.32px;
+}
+
+.jassir-stat ul li{
+    color: var(--mainBlack);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+
+.jassir-card button{
+    color: var(--mainWhite);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+
+    padding: 12px 24px;
+    border: none;
+    border-radius: 16px;
+    background: var(--mainBlack);
+}
+
+.onboard-info{
+    width: 644px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.onboard-info img{
+    width: 80px;
+}
+
+.onboard-info h5{
+    color: var(--mainBlack);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px; /* 133.333% */
+}
+
+.onboard-info p{
+    color: var(--mainBlack);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;
 }
