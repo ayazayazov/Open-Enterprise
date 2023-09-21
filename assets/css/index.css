@@ -209,7 +209,7 @@
 .kickstart{
     display: flex;
     padding: 0 118px 0 56px;
-    gap: 138px;
+    justify-content: space-between;
     margin-bottom: 131px;
 }
 
@@ -299,7 +299,7 @@
     display: flex;
     padding: 0 54px 0 80px;
     margin-bottom: 160px;
-    gap: 178px;
+    justify-content: space-between;
 }
 
 .jassir-card{
@@ -433,7 +433,7 @@
     display: flex;
     padding: 0 61px 0 56px;
     margin-bottom: 184px;
-    gap: 46px;
+    justify-content: space-between;
 }
 
 .engage-info{
