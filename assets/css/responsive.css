@@ -56,7 +56,7 @@
 
     /* Kickstart an organization with your co-founders */
 
-    .kickstart{
+    .kickstart, .onboard, .engage, .help{
         display: none;
     }
 }
@@ -121,7 +121,7 @@
 
     /* Kickstart an organization with your co-founders */
 
-    .kickstart, .onboard{
+    .kickstart, .onboard, .engage, .help{
         display: none;
     }
 }

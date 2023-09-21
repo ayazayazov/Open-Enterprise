@@ -614,6 +614,7 @@ letter-spacing: -0.32px;
 .engage-cards-bottom-right button{
     border-radius: 16px;
 background: var(--Black, #303031);
+border: none;
 
 padding: 12px 24px;
 
@@ -624,4 +625,138 @@ font-style: normal;
 font-weight: 500;
 line-height: 20px; /* 125% */
 letter-spacing: -0.32px;
+}
+
+/* Help us improve Open Enterprise */
+
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 0 52px;
+
+}
+
+.help-info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 895px;
+}
+
+.help-info p:first-child{
+    color: var(--Black, #303031);
+text-align: center;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 64px; /* 133.333% */
+}
+
+.help-info p:last-child{
+    color: var(--Black, #303031);
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+letter-spacing: -0.36px;
+}
+
+.help-cards{
+    display: flex;
+    gap: 28px;
+}
+
+.help-card{
+    border-radius: 16px;
+background: var(--White, #FFF);
+padding: 24px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+width: 100%;
+
+/* Card Shadow */
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+}
+
+.help-card-par{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.help-card p:first-child{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+letter-spacing: -0.36px;
+}
+
+.help-card p:last-child{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: -0.32px;
+}
+
+.help-card-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-card-bottom p:first-child{
+    border-radius: 40px;
+background: var(--Green, #71A894);
+padding: 4px 8px;
+color: var(--White, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: -0.32px;
+}
+
+.help-card-bottom p:last-child{
+    color: var(--Black, #303031);
+text-align: right;
+font-family: Roboto;
+font-size: 16px;
+font-style: italic;
+font-weight: 100;
+line-height: 24px; /* 150% */
+letter-spacing: -0.32px;
+}
+
+.wiew-more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 52px;
+    margin-bottom: 44px;
+}
+
+.wiew-more button{
+    width: 134px;
+    border-radius: 8px;
+    border: none;
+background: var(--Black, #303031);
+padding: 20px 24px;
+color: var(--White, #FFF);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
 }
