@@ -766,6 +766,10 @@ letter-spacing: -0.32px;
     margin-bottom: 44px;
 }
 
+.wiew-more img{
+    width: 100%;
+}
+
 .wiew-more button{
     width: 134px;
     border-radius: 8px;
