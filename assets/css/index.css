@@ -4,8 +4,12 @@
     align-items: center;
     height: 107px;
     padding: 32px;
+    background: var(--mainWhite);
     border-bottom: 1px solid var(--borderGray);
     margin-bottom: 46px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .logo{
@@ -47,6 +51,8 @@
 }
 
 /* MAIN */
+
+/* A new model for open collaboration */
 
 .info{
     display: flex;
@@ -211,6 +217,7 @@
     padding: 0 118px 0 56px;
     justify-content: space-between;
     margin-bottom: 131px;
+    gap: 138px;
 }
 
 .kickstart-info{
@@ -301,6 +308,7 @@
     padding: 0 54px 0 80px;
     margin-bottom: 160px;
     justify-content: space-between;
+    gap: 178px;
 }
 
 .jassir-card{
@@ -394,11 +402,16 @@
     font-weight: 500;
     line-height: 32px; /* 133.333% */
     letter-spacing: -0.48px;
-
+    cursor: pointer;
+    transition: all 0.3s;
     padding: 12px 24px;
     border: none;
     border-radius: 16px;
     background: var(--mainBlack);
+}
+
+.jassir-card button:hover{
+    opacity: 0.7;
 }
 
 .onboard-info{
@@ -435,6 +448,7 @@
     padding: 0 61px 0 56px;
     margin-bottom: 184px;
     justify-content: space-between;
+    gap: 46px;
 }
 
 .engage-info{
@@ -617,7 +631,8 @@ letter-spacing: -0.32px;
     border-radius: 16px;
 background: var(--Black, #303031);
 border: none;
-
+cursor: pointer;
+transition: all 0.3s;
 padding: 12px 24px;
 
 color: var(--White, #FFF);
@@ -627,6 +642,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 20px; /* 125% */
 letter-spacing: -0.32px;
+}
+
+.engage-cards-bottom-right button:hover{
+    opacity: 0.7;
 }
 
 /* Help us improve Open Enterprise */
@@ -681,8 +700,6 @@ display: flex;
 flex-direction: column;
 gap: 24px;
 width: 100%;
-
-/* Card Shadow */
 box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -754,6 +771,8 @@ letter-spacing: -0.32px;
     border-radius: 8px;
     border: none;
 background: var(--Black, #303031);
+cursor: pointer;
+transition: all 0.3s;
 padding: 20px 24px;
 color: var(--White, #FFF);
 font-family: Roboto;
@@ -763,16 +782,21 @@ font-weight: 700;
 line-height: 24px; /* 133.333% */
 }
 
+.wiew-more button:hover{
+    opacity: 0.7;
+}
+
 /* Start an Open Enterprise */
 
 .start{
     display: flex;
     padding: 0 56px;
     justify-content: space-between;
-    gap: 40;
+    gap: 40px;
+    margin-bottom: 120px;
 }
 
-.start img{
+.start-image{
     display: flex;
     flex: 1;
     width: 100%;
@@ -780,6 +804,7 @@ line-height: 24px; /* 133.333% */
 }
 .start-info{
     display: flex;
+    justify-content: center;
     flex: 1;
     flex-direction: column;
     gap: 40px;
@@ -814,6 +839,8 @@ letter-spacing: -0.36px;
     width: 220px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
 background: #71A894;
 padding: 20px 24px;
 color: var(--White, #FFF);
@@ -823,3 +850,50 @@ font-style: normal;
 font-weight: 700;
 line-height: 24px; /* 133.333% */
 }
+
+.start-info button:hover{
+    opacity: 0.7;
+}
+
+/* FOOTER */
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 56px;
+    margin-bottom: 40px;
+}
+
+.footer-logo{
+    color: var(--Black, #303031);
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.96px;
+}
+
+.footer-nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-nav ul li a{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.4px;
+}
+
+.footer-nav ul li:last-child a{
+    color: var(--mainGreen);
+    font-weight: 700;
+}
+
+/* THE END :) */
+
+/* Ayaz Ayazov | All rights reserved. */

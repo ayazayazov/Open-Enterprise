@@ -56,7 +56,7 @@
 
     /* Kickstart an organization with your co-founders */
 
-    .kickstart, .onboard, .engage, .help{
+    .kickstart, .onboard, .engage, .help, .start, #footer{
         display: none;
     }
 }
@@ -121,7 +121,11 @@
 
     /* Kickstart an organization with your co-founders */
 
-    .kickstart, .onboard, .engage, .help{
+    .kickstart, .onboard, .engage, .help, .start, #footer{
         display: none;
     }
 }
+
+/* THE END :) */
+
+/* Ayaz Ayazov | All rights reserved. */
