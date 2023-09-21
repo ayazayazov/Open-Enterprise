@@ -426,3 +426,202 @@
     line-height: 26px; /* 144.444% */
     letter-spacing: -0.36px;
 }
+
+/* Engage highly committed contributors */
+
+.engage{
+    display: flex;
+    padding: 0 61px 0 56px;
+    margin-bottom: 184px;
+    gap: 46px;
+}
+
+.engage-info{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 644px;
+}
+
+.engage-info img{
+    width: 64px;
+}
+
+.engage-info h6{
+    color: var(--mainBlack);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px; /* 133.333% */
+}
+
+.engage-info p{
+    color: var(--mainBlack);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;
+}
+
+.engage-cards{
+    display: flex;
+    flex-direction: column;
+    width: 631px;
+    gap: 13px;
+}
+
+.engage-card-top{
+    border-radius: 16px;
+    border: 4px solid var(--mainBlack);
+    background: var(--mainWhite);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.engage-card-top p{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: -0.32px;
+}
+
+.engage-card-top-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.engage-card-top-title p:first-child{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 133.333% */
+letter-spacing: -0.36px;
+}
+
+.engage-card-top-title p:last-child{
+    border-radius: 40px;
+background: var(--Green, #71A894);
+padding: 4px 8px;
+color: var(--White, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: -0.32px;
+}
+
+.engage-cards-bottom{
+    display: flex;
+    gap: 12px;
+}
+
+.engage-cards-bottom-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 381px;
+
+    border-radius: 16px;
+border: 4px solid var(--Black, #303031);
+background: var(--Light-Gold, #F3F0EA);
+padding: 32px 40px;
+}
+
+.engage-cards-bottom-left p{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.48px;
+}
+
+.applicants{
+    display: flex;
+    gap: 16px;
+}
+
+.applicants p{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 20px;
+font-style: italic;
+font-weight: 100;
+line-height: 24px; /* 120% */
+letter-spacing: -0.4px;
+}
+
+.applicants img{
+    border: none;
+    border-radius: 20px;
+}
+.applicants p{
+    display: flex;
+    align-items: center;
+}
+
+.engage-cards-bottom-right{
+    border-radius: 16px;
+border: 4px solid var(--Green, #71A894);
+background: var(--White, #FFF);
+    padding: 24px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.alex-photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.alex-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.alex-photo img{
+    border-radius: 36px;
+}
+
+.engage-cards-bottom-right p{
+    color: var(--Black, #303031);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: -0.32px;
+}
+
+.engage-cards-bottom-right button{
+    border-radius: 16px;
+background: var(--Black, #303031);
+
+padding: 12px 24px;
+
+color: var(--White, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: -0.32px;
+}
